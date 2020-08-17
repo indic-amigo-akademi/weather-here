@@ -1,0 +1,35 @@
+.logEntry {
+  padding: 0.5em;
+  margin: 0.5em 0;
+  background-color: #ffaaff;
+}
+
+#submit {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  display: block;
+  background-color: #ffa;
+}
+
+.nav {
+  background-color: #ed1;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.weather-icon {
+  display: inline-block;
+  width: 30px;
+  margin-bottom: -0.5rem;
+}
+
+#checkinMap {
+  width: 100%;
+  height: 500px;
+  max-height: calc(100vh - 100px);
+}

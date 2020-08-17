@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Weather Here</h1>
+    <div class="nav">
+      <a href="/">Check-in</a> | <a href="/checkins">View Checkins</a>
+    </div>
+    <p>
+      The weather here at latitude <span id="lat"></span>&deg;, longitude
+      <span id="lon"></span>&deg; is <span id="summary"></span> with a
+      temperature of <span id="temperature"></span> &deg; Celsius
+    </p>
+    <p>
+      The concentration of particulate matter (<span id="aq_parameter"></span>)
+      is <span id="aq_value"></span> <span id="aq_units"></span> last read on
+      <span id="aq_date"></span>.
+    </p>
+    <!-- <button id="submit">Checkin</button> -->
+    <script src="sketch.js"></script>
+  </body>
+</html>
